@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38425" started-at="2017-11-12T06:23:30Z" finished-at="2017-11-12T06:24:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38425" started-at="2017-11-12T06:23:30Z" finished-at="2017-11-12T06:24:08Z">
+      <class name="nov_12.UploadFile_Sikuli">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:nov_12.UploadFile_Sikuli@1d384ee]" name="launchBrowser" is-config="true" duration-ms="17123" started-at="2017-11-12T11:53:30Z" finished-at="2017-11-12T11:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="AutoItTest()[pri:0, instance:nov_12.UploadFile_Sikuli@1d384ee]" name="AutoItTest" duration-ms="21129" started-at="2017-11-12T11:53:47Z" finished-at="2017-11-12T11:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutoItTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:nov_12.UploadFile_Sikuli@1d384ee]" name="quitBrowser" is-config="true" duration-ms="1" started-at="2017-11-12T11:54:08Z" finished-at="2017-11-12T11:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- nov_12.UploadFile_Sikuli -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

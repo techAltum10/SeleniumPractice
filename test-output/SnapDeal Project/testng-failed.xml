@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SnapDeal Project]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="Search Item Test(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.CheckingItemsInCart">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.CheckingItemsInCart -->
+      <class name="testCases.SearchItem">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="testSearchItem"/>
+        </methods>
+      </class> <!-- testCases.SearchItem -->
+    </classes>
+  </test> <!-- Search Item Test(failed) -->
+  <test name="Login Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.CheckingItemsInCart">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.CheckingItemsInCart -->
+      <class name="testCases.SearchItem">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.SearchItem -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [SnapDeal Project] -->

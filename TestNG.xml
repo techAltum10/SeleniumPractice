@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SnapDeal Project" verbose="1" parallel="tests" thread-count="5">
+<!-- <parameter name="browser" value="chrome"></parameter> -->
+    
+  <test name="Login Test" >
+      <parameter name="browser" value="firefox"></parameter>
+    <classes>
+       <class name="testCases.LoginTest" />
+    </classes>
+  </test>
+ 
+ <test name="Checking Cart Test" >
+     <parameter name="browser" value="chrome"></parameter>
+    <classes>
+       <class name="testCases.CheckingItemsInCart" />
+    </classes>
+  </test>
+  
+ <test name="Search Item Test" >
+     <parameter name="browser" value="ie"></parameter>
+    <classes>
+       <class name="testCases.SearchItem" />
+    </classes>
+  </test>
+  
+</suite>
